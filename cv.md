@@ -1,4 +1,4 @@
-# 1. Bogdan Sivirinov!
+# 1. Bogdan Sivirinov
 
 ![me](https://sun9-14.userapi.com/impg/m2eOVHdt6zaSKzB_HXEL_f8nEyIfzJj8YoyYoQ/8MFG1nrMBKk.jpg?size=1134x1096&quality=95&sign=f27eb8672b3df00f92a375452bc5e002&type=album 'My photo')
 ******
