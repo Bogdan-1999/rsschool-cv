@@ -53,4 +53,171 @@ top: 0px;
 border: 1px solid #FFFFFF;
 border-radius: 2px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.about{
+position: absolute;
+width: 43px;
+height: 22px;
+left: 365px;
+top: 15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+color: #FE9013;
+}
+
+.map{
+  position: absolute;
+width: 32px;
+height: 22px;
+left: 466px;
+top: 15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: white
+}
+
+.zoos{
+  position: absolute;
+width: 36px;
+height: 22px;
+left: 556px;
+top: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+}
+
+.donate{
+position: absolute;
+width: 51px;
+height: 22px;
+left: 650px;
+top: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+
+}
+
+.contactUs{
+  position: absolute;
+width: 78px;
+height: 22px;
+left: 759px;
+top: 15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+}
+
+.desined{
+  position: absolute;
+width: 105px;
+height: 22px;
+left: 1275px;
+top: 15px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+
+color: #FFFFFF;
+}
+.panda{
+  position: absolute;
+  width: 100%;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 80px;
+  size: 100%;
+}
+
+.circle{
+position: absolute;
+width: 465px;
+height: 465px;
+left: calc(50% - 465px/2 + 239.5px);
+top: 92px;
+border-radius:300px;
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.watch{
+  position: absolute;
+width: 500.31px;
+height: 400px;
+left: calc(50% - 500.31px/2 + 330.15px);
+top: 66px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.yellow{
+  color: #FFEE2E;
+}
+
+.button_1{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+top: 606px;
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+}
+
+.textBTN1{
+position: absolute;
+width: 292px;
+height: 22px;
+left: 5px;
+top: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
