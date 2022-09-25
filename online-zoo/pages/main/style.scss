@@ -480,3 +480,70 @@ top: 394 - 20px;
         }
     }
         }}
+
+.gorillas{
+border-style: solid;
+border-color: #fb7928;
+box-sizing: border-box;
+
+position: absolute;
+width: 366px;
+height: 426px;
+left: 366*2 + 60px;
+top: 0px;
+
+border-radius: 5px;
+    .gorillaimg{
+      position: absolute;
+      width: 360px;
+      height: 366px;
+      left: 0px;
+      top: 0px;
+    }
+    .name{
+        position: absolute;
+width: 294px;
+height: 22px;
+left: 16px;
+top: 374 - 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+
+text-transform: uppercase;
+
+color: #000000;
+    }
+    .where{
+position: absolute;
+width: 294px;
+height: 18px;
+left: 16px;
+top: 394 - 20px;
+    }
+    .logo{
+        position: absolute;
+        width: 33px;
+        height: 37px;
+        left: 101px;
+        top: 376 - 20px;
+        
+        .vector{
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 8.38%;
+          bottom: 12.85%;
+                  .bamboo{
+          position: absolute;
+          left: 34.05%;
+          right: 27.75%;
+          top: 0%;
+          bottom: 4.97%;
+          transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+        }
+    }
+        }}
