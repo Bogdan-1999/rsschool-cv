@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
-@media screen (max-width: 1600px) {
-  .header {
-    background: yellow;
-  }
+.header {
+  width: 100%;
+  height: 100px;
+  background: black;
 }
+
 .header {
   position: absolute;
   width: 100%;
@@ -13,143 +14,125 @@
   background: black;
 }
 
-#logoHead{
-position: absolute;
-width: 82px;
-height: 52px;
-left: 0px;
-top: -14px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 19.0145px;
-line-height: 120%;
-color: #FFFFFF;
-
-text-align:center;
-
+#logoHead {
+  position: absolute;
+  width: 82px;
+  height: 52px;
+  left: 0px;
+  top: -14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  color: #FFFFFF;
+  text-align: center;
 }
 
-#bamboo{
-position: absolute;
-width: 7.03px;
-height: 20.98px;
-left: 13.23px;
-top: 24.64px;
-
+#bamboo {
+  position: absolute;
+  width: 7.03px;
+  height: 20.98px;
+  left: 13.23px;
+  top: 24.64px;
 }
 
-.logo{
+.logo {
   box-sizing: border-box;
-
   margin: 14px 220px 1298px;
-
-position: absolute;
-width: 82px;
-height: 52px;
-left: 0px;
-top: 0px;
-
-border: 1px solid #FFFFFF;
-border-radius: 2px;
-}
-
-.about{
-position: absolute;
-width: 43px;
-height: 22px;
-left: 365px;
-top: 15px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-color: #FE9013;
-}
-
-.map{
   position: absolute;
-width: 32px;
-height: 22px;
-left: 466px;
-top: 15px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-color: white
+  width: 82px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
 }
 
-.zoos{
+about {
   position: absolute;
-width: 36px;
-height: 22px;
-left: 556px;
-top: 15px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-
-
-color: #FFFFFF;
+  width: 43px;
+  height: 22px;
+  left: 365px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FE9013;
 }
 
-.donate{
-position: absolute;
-width: 51px;
-height: 22px;
-left: 650px;
-top: 15px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-
-
-color: #FFFFFF;
-
-}
-
-.contactUs{
+.map {
   position: absolute;
-width: 78px;
-height: 22px;
-left: 759px;
-top: 15px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-
-
-color: #FFFFFF;
+  width: 32px;
+  height: 22px;
+  left: 466px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
 }
 
-.desined{
+.zoos {
   position: absolute;
-width: 105px;
-height: 22px;
-left: 1275px;
-top: 15px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-
-
-color: #FFFFFF;
+  width: 36px;
+  height: 22px;
+  left: 556px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
 }
-.panda{
+
+.donate {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 650px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.contactUs {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 759px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.desined {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 1275px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.panda {
   position: absolute;
   width: 100%;
   height: 780px;
@@ -159,170 +142,211 @@ color: #FFFFFF;
   size: 100%;
 }
 
-.circle{
-position: absolute;
-width: 465px;
-height: 465px;
-left: 1000px;
-top: 92px;
-border-radius:300px;
-
-background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-}
-
-.watch{
+.circle {
   position: absolute;
-width: 500.31px;
-height: 400px;
-left: 1050px;
-top: 66px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 106.496px;
-line-height: 75%;
-
-text-align: center;
-
-color: #FFFFFF;
+  width: 465px;
+  height: 465px;
+  left: 1000px;
+  top: 92px;
+  border-radius: 300px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
 
-.yellow{
+.watch {
+  position: absolute;
+  width: 500.31px;
+  height: 400px;
+  left: 1050px;
+  top: 66px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.yellow {
   color: #FFEE2E;
 }
 
-.button_1{
-position: absolute;
-width: 298px;
-height: 54px;
-left: 1100px;
-top: 606px;
-
-background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-border-radius: 25px;
+.button_1 {
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: 1100px;
+  top: 606px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
 }
 
-.textBTN1{
-position: absolute;
-width: 292px;
-height: 22px;
-left: 5px;
-top: 0px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
+.textBTN1 {
+  position: absolute;
+  width: 292px;
+  height: 22px;
+  left: 5px;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-.section{
+.section {
   position: absolute;
   height: 403px;
   left: 219px;
   right: 220px;
   top: 1147px;
-  
 }
 
-#bamboo-cap{
-position: absolute;
-width: 609px;
-height: 403px;
-left: 0px;
-top: 0px;
-
-background: url(bamboo-cap-4767687_1920.jpg);
-backdrop-filter: blur(2px);
-}
-
-.textninja1{
-position: absolute;
-height: 116px;
-left: 696px;
-right: 0px;
-top: 0px;
-margin: 0;
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 120%;
-
-
-color: #333B41;
-
-}
-
-.textninja2{
+#bamboo-cap {
   position: absolute;
-height: 42px;
-left: 696px;
-right: 0px;
-top: 136px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 130%;
-
-
-color: #333B41;
+  width: 609px;
+  height: 403px;
+  left: 0px;
+  top: 0px;
+  background: url(bamboo-cap-4767687_1920.jpg);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 
-.textninja3{
-position: absolute;
-width: 217px;
-height: 29px;
-left: 696px;
-top: 232px;
-
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 120%;
-
-
-color: #333B41;
-
+.textninja1 {
+  position: absolute;
+  height: 116px;
+  left: 696px;
+  right: 0px;
+  top: 0px;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #333B41;
 }
 
+.textninja2 {
+  position: absolute;
+  height: 42px;
+  left: 696px;
+  right: 0px;
+  top: 136px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333B41;
+}
 
-.textninja4{
+.textninja3 {
+  position: absolute;
+  width: 217px;
+  height: 29px;
+  left: 696px;
+  top: 232px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+
+.textninja4 {
   position: absolute;
   height: 105px;
   left: 696px;
   right: 0px;
   top: 295px;
-  
-  
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  
   color: #333B41;
-  
 }
 
-#flower{
-position: absolute;
-width: 293px;
-height: 605px;
-left: 1680px;
-top: 1000px;
-
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+#flower {
+  position: absolute;
+  width: 293px;
+  height: 605px;
+  left: 1680px;
+  top: 1000px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.animals {
+  position: absolute;
+  width: 1158px;
+  height: 872px;
+  left: 220px;
+  top: 1730px;
+  background: #FFFFFF;
+}
+
+.pandas {
+  box-sizing: border-box;
+  position: absolute;
+  width: 366px;
+  height: 426px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+}
+.pandas .pandaimg {
+  position: absolute;
+  width: 366px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+.pandas .name {
+  position: absolute;
+  width: 294px;
+  height: 22px;
+  left: 16px;
+  top: 374px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.pandas .where {
+  position: absolute;
+  width: 294px;
+  height: 18px;
+  left: 16px;
+  top: 394px;
+}
+.pandas .logo {
+  position: absolute;
+  width: 33px;
+  height: 37px;
+  left: 101px;
+  top: 376px;
+}
+.pandas .logo .vector {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 8.38%;
+  bottom: 12.85%;
+}
+.pandas .logo .vector .bamboo {
+  position: absolute;
+  left: 34.05%;
+  right: 27.75%;
+  top: 0%;
+  bottom: 4.97%;
+  transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+}/*# sourceMappingURL=style.css.map */
