@@ -283,6 +283,8 @@ about {
 }
 
 .animals {
+  border-style: solid;
+  border-color: #fb7928;
   position: absolute;
   width: 1158px;
   height: 872px;
@@ -292,6 +294,8 @@ about {
 }
 
 .pandas {
+  border-style: solid;
+  border-color: #fb7928;
   box-sizing: border-box;
   position: absolute;
   width: 366px;
@@ -302,7 +306,7 @@ about {
 }
 .pandas .pandaimg {
   position: absolute;
-  width: 366px;
+  width: 360px;
   height: 366px;
   left: 0px;
   top: 0px;
@@ -312,7 +316,7 @@ about {
   width: 294px;
   height: 22px;
   left: 16px;
-  top: 374px;
+  top: 354px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -326,14 +330,14 @@ about {
   width: 294px;
   height: 18px;
   left: 16px;
-  top: 394px;
+  top: 374px;
 }
 .pandas .logo {
   position: absolute;
   width: 33px;
   height: 37px;
   left: 101px;
-  top: 376px;
+  top: 356px;
 }
 .pandas .logo .vector {
   position: absolute;
@@ -349,4 +353,67 @@ about {
   top: 0%;
   bottom: 4.97%;
   transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+}
+
+.eagles {
+  border-style: solid;
+  border-color: #fb7928;
+  box-sizing: border-box;
+  position: absolute;
+  width: 366px;
+  height: 426px;
+  left: 396px;
+  top: 0px;
+  border-radius: 5px;
+}
+.eagles .eagleimg {
+  position: absolute;
+  width: 360px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+.eagles .name {
+  position: absolute;
+  width: 294px;
+  height: 22px;
+  left: 16px;
+  top: 354px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.eagles .where {
+  position: absolute;
+  width: 294px;
+  height: 18px;
+  left: 16px;
+  top: 374px;
+}
+.eagles .logo {
+  position: absolute;
+  width: 33px;
+  height: 37px;
+  left: 101px;
+  top: 356px;
+}
+.eagles .logo .fish {
+  position: absolute;
+  left: 4px;
+  right: 0px;
+  top: 25%;
+  bottom: 12.85%;
+}
+.eagles .logo .fish .steak {
+  position: absolute;
+  left: 34.05%;
+  right: 27.75%;
+  top: 0%;
+  bottom: 4.97%;
+  background: #EE8383;
+  transform: matrix(0.75, -0.66, 0.67, 0.75, 0, 0);
 }/*# sourceMappingURL=style.css.map */
