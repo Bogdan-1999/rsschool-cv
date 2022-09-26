@@ -669,4 +669,48 @@ about {
   bottom: 4.97%;
   background: #EE8383;
   transform: matrix(0.75, -0.66, 0.67, 0.75, 0, 0);
+}
+
+.leftarrow {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 138px;
+  top: 2130px;
+}
+.leftarrow .ellipse {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.leftarrow .vector {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  transform: rotate(0);
+}
+
+.rightarrow {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 1398px;
+  top: 2130px;
+}
+.rightarrow .ellipse {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.rightarrow .vector {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  transform: rotate(180deg);
 }/*# sourceMappingURL=style.css.map */
